@@ -14,7 +14,7 @@ type Node22 struct {
 	next  *Node22
 }
 
-func Constructor(capacity int) LRUCache {
+func Constructor31(capacity int) LRUCache {
 	return LRUCache{capacity: capacity, len: 0, m: make(map[int]*Node22)}
 }
 
