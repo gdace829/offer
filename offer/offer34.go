@@ -10,7 +10,7 @@ package offer
  */
 var res [][]int
 
-func pathSum(root *TreeNode, target int) [][]int {
+func pathSum1(root *TreeNode, target int) [][]int {
 	res = make([][]int, 0)
 	path(root, target, 0, make([]int, 0))
 	return res

@@ -13,7 +13,7 @@ type CBTInserter struct {
 	leaves []*TreeNode
 }
 
-func Constructor(root *TreeNode) CBTInserter {
+func Constructor43(root *TreeNode) CBTInserter {
 	cbt := CBTInserter{}
 	cbt.root = root
 	cbt.leaves = []*TreeNode{}
