@@ -6,7 +6,7 @@ type Trie struct {
 }
 
 /** Initialize your data structure here. */
-func Constructor() Trie {
+func Constructor62() Trie {
 	return Trie{tris: [26]*Trie{}, isEnd: false}
 }
 
