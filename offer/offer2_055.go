@@ -13,7 +13,7 @@ type BSTIterator struct {
 	tn    *TreeNode
 }
 
-func Constructor(root *TreeNode) BSTIterator {
+func Constructor55(root *TreeNode) BSTIterator {
 	return BSTIterator{tn: root, stack: []*TreeNode{}}
 }
 

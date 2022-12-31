@@ -1,6 +1,6 @@
 module sjs.com/m
 
-go 1.19
+go 1.17
 
 require (
 
