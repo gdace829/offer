@@ -8,12 +8,12 @@ package offer
  *     Right *TreeNode
  * }
  */
- func preorderTraversal(root *TreeNode) []int {
-		if root==nil{
-			return
-		}
-		var dfs func(*TreeNode)
-		dfs=func(r *TreeNode){
-			
-		}
- }
+//  func preorderTraversal(root *TreeNode) []int {
+// 		if root==nil{
+// 			return
+// 		}
+// 		var dfs func(*TreeNode)
+// 		dfs=func(r *TreeNode){
+
+// 		}
+//  }
